@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_hijos",
+  "info": {
+    "name": "hijo",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_galerias",
+  "info": {
+    "name": "Galería",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

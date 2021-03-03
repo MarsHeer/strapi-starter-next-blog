@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.banner"
+    }
+  }
+}

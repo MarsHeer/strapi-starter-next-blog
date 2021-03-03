@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "iniciates",
+  "info": {
+    "name": "iniciate",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    },
+    "twitch": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.youtube"
+    }
+  }
+}

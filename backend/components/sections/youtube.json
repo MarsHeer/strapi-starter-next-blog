@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_youtubes",
+  "info": {
+    "name": "youtube",
+    "icon": "play-circle"
+  },
+  "options": {},
+  "attributes": {
+    "videoid": {
+      "type": "string"
+    }
+  }
+}

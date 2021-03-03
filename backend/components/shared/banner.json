@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_banners",
+  "info": {
+    "name": "banner",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "colordefondo": {
+      "type": "string"
+    },
+    "imagendefondo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_experiencias",
+  "info": {
+    "name": "experiencia",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "cantidad1": {
+      "type": "string"
+    },
+    "experiencia1": {
+      "type": "string"
+    },
+    "cantidad2": {
+      "type": "string"
+    },
+    "experiencia2": {
+      "type": "string"
+    },
+    "cantidad3": {
+      "type": "string"
+    },
+    "experiencia3": {
+      "type": "string"
+    },
+    "cantidad4": {
+      "type": "string"
+    },
+    "experiencia4": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "galleries",
+  "info": {
+    "name": "gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "galeria": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.galeria"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}

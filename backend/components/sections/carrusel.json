@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_carrusels",
+  "info": {
+    "name": "Carrusel",
+    "icon": "chart-area"
+  },
+  "options": {},
+  "attributes": {
+    "Imagenes": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

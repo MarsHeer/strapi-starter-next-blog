@@ -13,10 +13,13 @@
   "dependencies": {
     "moment": "^2.24.0",
     "next": "^9.5.4",
+    "next-scss": "^1.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-markdown": "^4.2.2",
-    "react-moment": "^0.9.6"
+    "react-markdown": "^4.3.1",
+    "react-moment": "^0.9.6",
+    "react-twitch-embed": "^2.1.0",
+    "react-youtube-embed": "^1.0.3"
   },
   "license": "MIT",
   "devDependencies": {

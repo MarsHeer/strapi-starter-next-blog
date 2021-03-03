@@ -1,8 +1,8 @@
-import Nav from "./nav";
+import Navbar from "./Essentials/Navbar";
 
 const Layout = ({ children, categories, seo }) => (
   <>
-    <Nav categories={categories} />
+    <Navbar />
     {children}
   </>
 );

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/iniciate",
+      "handler": "iniciate.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/iniciate",
+      "handler": "iniciate.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/iniciate",
+      "handler": "iniciate.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

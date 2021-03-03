@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_columns",
+  "info": {
+    "name": "column",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "hijo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hijo"
+    }
+  }
+}

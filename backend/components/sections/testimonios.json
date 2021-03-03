@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_testimonios",
+  "info": {
+    "name": "Testimonios",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "Testimonio1": {
+      "type": "text"
+    },
+    "Autor1": {
+      "type": "string"
+    },
+    "Testimonio2": {
+      "type": "text"
+    },
+    "Autor2": {
+      "type": "string"
+    }
+  }
+}
